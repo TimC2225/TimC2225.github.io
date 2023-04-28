@@ -64,7 +64,7 @@ h1, h2, h3{
 
 
 #main{
-  width: 600px;
+  width: auto;
 
 }
 
@@ -74,4 +74,16 @@ h1, h2, h3{
   background-color: #999999;
   color: #ffffff;
   text-align: right;
+}
+
+#about {
+  width: 50%;
+  float: right;
+  padding: 40px;
+}
+
+#selfie {
+  float: left;
+  width: 40%;
+  padding: 40px;
 }
