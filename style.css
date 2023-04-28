@@ -41,20 +41,25 @@ h1, h2, h3{
 }
 
 #nav{
-  width: 580px;
+  max-width: 580px;
+  width: 100%;
   margin: auto;
   text-align: center;
   float: right;
+  background-color: #ac3f3f;
 }
 
-#nav ul {
+#nav .flex-container {
+  height: 50px;
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
-  white-space: nowrap;
+  flex-wrap: wrap;
   margin-left: 25px;
   margin-right: 25px;
+  align-items: center;
 }
 
 #nav .selected{
@@ -65,7 +70,7 @@ h1, h2, h3{
 
 #main{
   width: auto;
-
+  padding: 2%;
 }
 
 #footer{
@@ -79,11 +84,13 @@ h1, h2, h3{
 #about {
   width: 50%;
   float: right;
-  padding: 40px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
 }
 
 #selfie {
   float: left;
   width: 40%;
-  padding: 40px;
+  padding: 2%;
 }
