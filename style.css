@@ -110,7 +110,7 @@ body {
 }
 
 #Assignment_list a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #ac3f3f;
 }
 
