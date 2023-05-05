@@ -71,6 +71,33 @@ body {
   text-align: right;
 }
 
+#main h1 {
+    animation-duration: 3s;
+    animation-name: slideinright;
+}
+
+#main h2 {
+  animation-duration: 3.5s;
+  animation-name: slideinright;
+}
+
+#main p {
+  animation-duration: 4s;
+  animation-name: slideinright;
+}
+
+@keyframes slideinright {
+  from {
+    margin-left: 200%;
+    width: 300%;
+  }
+  
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 #main {
   width: auto;
   padding-left: 2%;
@@ -80,21 +107,39 @@ body {
   float: left;
 }
 
+#main p {
+  font-size: large;
+}
+
 #about {
   width: 50%;
   float: right;
   padding-top: 5%;
   padding-bottom: 2%;
   padding-right: 2%;
+  animation-duration: 2s;
+  animation-name: slideinbottom;
 }
 
 #selfie {
   float: left;
   width: 40%;
   padding-left: 2%;
-  padding-right: 2%;
+  padding-right: 1%;
   padding-top: 0%;
   padding-bottom: 3%;
+  animation-duration: 2s;
+  animation-name: slideinbottom;
+}
+
+@keyframes slideinbottom {
+  from {
+    margin-top: 100%;
+  }
+  
+  to {
+    margin-top: 0%;
+  }
 }
 
 #Assignment {
@@ -127,6 +172,11 @@ body {
   text-decoration: underline;
 }
 
+#GitHubV a {
+    text-decoration: underline;
+    color: #ac3f3f;
+}
+
 #AV1 {
   float: left;
   width: 520; 
@@ -152,8 +202,20 @@ body {
   margin-bottom: 2%;
 }
 
+#A1P {
+  clear: left;
+  float: right;
+  width: 40%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
 #Css {
   clear: right;
+}
+
+#OtherR {
+  clear: left;
 }
 
 hr {
