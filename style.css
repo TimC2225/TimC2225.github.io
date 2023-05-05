@@ -123,6 +123,44 @@ body {
   padding: 0;
 }
 
+#title2 {
+  text-decoration: underline;
+}
+
+#A1V1 {
+  float: left;
+  width: 520; 
+  height: 315;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+#A1V2 {
+  float: right;
+  width: 520; 
+  height: 315;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+#A1V3 {
+  float: left;
+  clear: right;
+  width: 520; 
+  height: 315;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+#Css {
+  clear: right;
+}
+
+hr {
+  clear: both;
+  margin-bottom: 10px;
+}
+
 #Final {
   width: 50%;
   float: right;
