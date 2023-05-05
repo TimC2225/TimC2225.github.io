@@ -83,7 +83,7 @@ body {
 #about {
   width: 50%;
   float: right;
-  padding-top: 0.5%;
+  padding-top: 5%;
   padding-bottom: 2%;
   padding-right: 2%;
 }
@@ -93,7 +93,7 @@ body {
   width: 40%;
   padding-left: 2%;
   padding-right: 2%;
-  padding-top: 3%;
+  padding-top: 0%;
   padding-bottom: 3%;
 }
 
@@ -127,7 +127,7 @@ body {
   text-decoration: underline;
 }
 
-#A1V1 {
+#AV1 {
   float: left;
   width: 520; 
   height: 315;
@@ -135,7 +135,7 @@ body {
   margin-bottom: 2%;
 }
 
-#A1V2 {
+#AV2 {
   float: right;
   width: 520; 
   height: 315;
@@ -143,7 +143,7 @@ body {
   margin-bottom: 2%;
 }
 
-#A1V3 {
+#AV3 {
   float: left;
   clear: right;
   width: 520; 
@@ -167,4 +167,13 @@ hr {
   padding-top: 0.5%;
   padding-bottom: 2%;
   padding-right: 2%;
+}
+
+#FPP1 {
+  float: left;
+  width: 40%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
