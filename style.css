@@ -223,6 +223,56 @@ hr {
   margin-bottom: 10px;
 }
 
+#A3P1 {
+  float: left;
+  width: 45%;
+}
+
+#Cap1 {
+  clear: left;
+  float: left;
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+#A3P2 {
+  float: right;
+  width: 45%;
+}
+
+#Cap2 {
+  clear: right;
+  float: right;
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+#A3P3 {
+  float: left;
+  clear: left;
+  width: 45%;
+}
+
+#A3P4 {
+  float: right;
+  clear: right;
+  width: 45%;
+}
+
+#P5 {
+  float: left;
+  clear: left;
+  width: 45%;
+}
+
+#A3P5 {
+  float: left;
+  clear: left;
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+
 #Final {
   width: 50%;
   float: right;
