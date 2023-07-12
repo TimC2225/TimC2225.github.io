@@ -160,16 +160,17 @@ body {
 }
 
 #Assignment_list a {
-  text-decoration: underline;
-  color: #ac3f3f;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
 }
 
 #Assignment_list .flex-container {
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content:space-between;
   padding: 0;
 }
 
@@ -297,6 +298,36 @@ hr {
 }
 
 #A3P1v2 {
+  width:100%;
+}
+
+.link1 {
+  position: relative;
+  text-align: center;
+  color: white;
   float: left;
-  width: 45%;
+  flex: 45%;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  padding-bottom: 1.25%;
+  clear: both;
+}
+
+.link2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  float: right;
+  flex: 45%;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  padding-bottom: 1.25%;
+  clear: both;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
