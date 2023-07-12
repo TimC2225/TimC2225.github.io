@@ -1,0 +1,63 @@
+<html>
+  <head>
+      <title>Week 11</title>
+  </head>
+  <body>
+      <div id="container">
+          <div id="header">
+            <h1 id="Name"><a href="../index.html">My Website</a></h1>
+              <link rel="stylesheet" type="text/css" href="../style.css">
+              <div id="nav">
+                <div class="flex-container">
+                  <li><a href="../final project.html">Final Project</a></li>
+                  <li><a href="../assignments page.html">Assignments</a></li>
+                  <li><a href="../about.html">About</a></li>
+                  <li><a href="../index.html">Home</a></li>
+                </div>
+            </div>
+          </div> 
+          <div id="content">
+              <div id="Assignment">
+                <div id="title2">
+                  <h2>Week 11 - Arduino II</h2>
+                </div>
+                <div id="GitHub">
+                  <h3>Assignment 5 - Tinkercad</h3>
+                  <h3>Task 1</h3>
+                  <iframe id="AV1" src="https://www.tinkercad.com/embed/ajzSW0tYopt?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                  <div id="GitHubV">
+                    <p>For Task 1, we were tasked to connect an LED to an arduino and write a program to blink the LED in a variety of patterns. I started by connecting the LED to pin 6, then wrote code that causes the led to change logic level every 1000ms then every 500ms before looping.</p>
+                  </div>
+                </div>
+                <hr>
+                <div id="HtmlCss">
+                  <div id="HtmlCssV">
+                    <h3>Task 2</h3>
+                    <iframe id="AV2" src="https://www.tinkercad.com/embed/0e90ISns22z?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> 
+                    <p>For Task 2, we were tasked to connect 3 LEDs to an arduino and write a program to produce running lights, i.e. the 3 LEDs are lit in sequence. I started by connecting the LEDs to pin 6, 5 and 4, then wrote code that causes the leds to turn on then off in sequence before looping.</p>
+                  </div>
+                </div>
+                <hr>
+                <div id="GitHub">
+                  <h3>Task 3</h3>
+                  <iframe id="AV3" src="https://www.tinkercad.com/embed/ecxs7BiAvMh?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                  <div id="GitHubV">
+                    <p>For Task 3, we were tasked to connect a button to the circuit from Task 1, before writing a program to toggle the logic level of the LED when the button is pressed. I started by connecting the button to pin 7, before writing the program to toggle the logic level of the leds. A while loop at the end of the main loop was used to make sure that the logic level was only toggled once per press even if the button was held down.</p>
+                  </div>
+                </div>
+                <hr>
+                <div id="HtmlCss">
+                  <div id="HtmlCssV">
+                    <h3>Task 4</h3>
+                    <iframe id="AV2" src="https://www.tinkercad.com/embed/cEACrwdNSwf?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> 
+                    <p>For Task 4, we were tasked to use the switch in task 3 to control the type of light-up and flashing of 3 LEDs connected similarly to Task 2, such that the leds all start in the OFF state, then each light up in sequence as the button is pressed, before all turning on after the 4th press, then reseting back to the first state. I started by connecting a switch like in Task 3 to the circuit from Task 2, before writing the code to turn on the appropriate leds after each button press, with the arduino keeping track of the number of presses using the "sw" and "sw_2" integer variables.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div id="footer">
+              Copyright &copy; 2023 
+          </div>
+      </div>
+  </body>
+</html>

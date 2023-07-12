@@ -22,6 +22,11 @@ body {
   height: 50px;
 }
 
+#Name a {
+  text-decoration: none;
+  color: white;
+}
+
 #Name {
   text-align: left;
   float: left;
@@ -72,17 +77,17 @@ body {
 }
 
 #main h1 {
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-name: slideinright;
 }
 
 #main h2 {
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-name: slideinright;
 }
 
 #main p {
-  animation-duration: 3.5s;
+  animation-duration: 3s;
   animation-name: slideinright;
 }
 
@@ -272,7 +277,6 @@ hr {
   margin-bottom: 2%;
 }
 
-
 #Final {
   width: 50%;
   float: right;
@@ -290,4 +294,9 @@ hr {
   padding-right: 2%;
   padding-top: 2%;
   padding-bottom: 3%;
+}
+
+#A3P1v2 {
+  float: left;
+  width: 45%;
 }
