@@ -77,8 +77,8 @@ body {
 }
 
 #main h1 {
-    animation-duration: 2s;
-    animation-name: slideinright;
+  animation-duration: 2s;
+  animation-name: slideinright;
 }
 
 #main h2 {
@@ -89,6 +89,12 @@ body {
 #main p {
   animation-duration: 3s;
   animation-name: slideinright;
+}
+
+#IndexP {
+  width:100%;
+  animation-duration: 4s;
+  animation-name: fadein;
 }
 
 @keyframes slideinright {
