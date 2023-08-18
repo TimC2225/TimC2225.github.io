@@ -253,7 +253,26 @@ body {
   margin-bottom: 1%;
 }
 
+#AV2v4 {
+  position: relative;
+  padding-bottom: 30%;
+  float: right;
+  clear: left;
+  width: 35%;
+  height: 0;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+
 .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#code {
   position: absolute;
   top: 0;
   left: 0;
